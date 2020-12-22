@@ -1,0 +1,109 @@
+.content {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0s, opacity 0.5s linear;
+}
+
+.content p {
+  margin: 0;
+}
+
+h2 {
+  margin: 0;
+}
+
+.card {
+  position: relative;
+  display: block;
+  margin-bottom: 1em;
+  width: 100%:
+}
+
+.card:hover .content {
+  color: white;
+  background-color: black;
+  padding: 1em;
+  visibility: visible;
+  opacity: 1;
+}
+
+h1 {
+  text-align: left;
+}
+
+.slogan {
+  font-size: 1.75em;
+  margin-bottom: 10em;
+}
+
+@media only screen and (min-width: 25em) {
+
+
+
+}
+
+
+@media only screen and (min-width: 38em) {
+
+  .main {
+    display: flex;
+  }
+
+  .gladstone {
+    width: 20em;
+    margin-right: 1em;
+  }
+
+  .gladstone img {
+    height: 23em;
+    width: 100%;
+    object-fit: cover;
+  }
+
+  .etu {
+    width: 84%;
+  }
+
+  .etu img {
+    height: 23em;
+    object-fit: cover;
+  }
+
+  .camp {
+    width: 20em;
+  }
+
+  .camp img {
+    height: 23em;
+    width: 17em;
+    object-fit: cover;
+  }
+
+  .coffee img {
+    height: 23em;
+    object-fit: cover;
+  }
+
+  .coffee {
+    margin-right: 1em;
+    width: 100%;
+  }
+
+
+}
+
+@media only screen and (min-width: 60em) {
+
+
+
+}
+
+@media only screen and (min-width: 90em) {
+
+
+
+}

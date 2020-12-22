@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en-ca">
+<head>
+  <meta charset="utf-8">
+  <title>Contact me</title>
+  <link href="css/main.css" rel="stylesheet">
+  <link href="css/contact.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Montserrat:wght@500;700&display=swap" rel="stylesheet">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+</head>
+<body>
+
+  <ul class="skip-links">
+    <li><a href="#main">Jump to main content</a></li>
+    <li><a href="#nav">Jump to navigation</a></li>
+  </ul>
+
+  <header role="banner">
+    <svg class="svg"><use xlink:href="asset/logo.svg"></use></svg>
+    <nav id="nav" role="navigation">
+      <ul>
+        <li><a href="index.html">Work</a></li>
+        <li><a href="about-me.html">About me</a></li>
+        <li><a class="current" href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section>
+    <form method="POST" action="https://formspree.io/f/mrgoylra">
+      <div class="heading">
+        <h1>Let’s start to work!</h1>
+        <p>Now you have known me for good. Let’s start our first business now!</p>
+      </div>
+
+      <div id="main">
+        <div class="f50-50">
+          <div class="f50">
+            <label for="name">Your name</label>
+            <input id="name" name="name" required>
+          </div>
+          <div class="f50">
+            <label for="address">How can I address you?</label><br>
+            <select id="address" name="address">
+              <option>Mr</option>
+              <option>Mrs</option>
+              <option>Ms</option>
+              <option>None</option>
+            </select>
+          </div>
+        </div>
+        <div class="">
+          <label for="compname">Your company's name</label>
+          <input id="compname" name="compname">
+          <label for="email">Email</label>
+          <input id="email" type="email" name="email" required>
+        </div>
+        <div class="f50-50">
+          <div class="f50">
+            <label for="phone">Your phone number</label>
+            <input id="phone" type="number" name="phone">
+          </div>
+          <div class="f50">
+            <label for="job">Type of job</label><br>
+            <select id="job" name="job">
+              <option>Branding</option>
+              <option>Motion</option>
+              <option>Web and app</option>
+              <option>Illustration</option>
+              <option>UX - UI</option>
+              <option>I would like to discuss later</option>
+            </select>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="btn-container">
+      <p>I will contact you as soon as I receive the information so that we can discuss further into your needs and which solution you want to make!</p>
+      <button class="btn" type="submit" value="send">Send now</button>
+      <style>
+        .btn-container p {
+          margin-bottom: 3em;
+        }
+      </style>
+    </div>
+
+  </form>
+</section>
+
+<footer role="contentinfo">
+  <div class="copyright">
+    <p>Sam Le 2020</p>
+  </div>
+  <div class="social-badges">
+    <ul>
+      <li>
+        <svg><use xlink:href="asset/iconmonstr-linkedin-3.svg"></use></svg>
+      </li>
+      <li>
+        <svg><use xlink:href="asset/iconmonstr-behance-3.svg"></use></svg>
+      </li>
+    </ul>
+  </div>
+</footer>
+</body>
+</html>
