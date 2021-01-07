@@ -6,3 +6,11 @@ a {
   color: black;
   text-decoration: none;
 }
+
+.current, nav ul li a:hover, nav ul li a:focus {
+  border-bottom: 3px solid black;
+}
+
+header {
+  margin-bottom: 7rem;
+}
